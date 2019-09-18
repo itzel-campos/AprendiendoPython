@@ -3,8 +3,8 @@
 
 Nombre = input("Nombre: \t")
 Apellido = input("Apellido: \t")
-#Se concatenan los valores str, junto con la literal" "
+#Se concatenan los valores de nombre y apellido
 NombreCompleto = Nombre +" "+ Apellido
-#Se asigna a la variable la representacion en mayusculas delo que contenia
+#Se cambian las cadenas recibidas a mayusculas 
 NombreCompleto = NombreCompleto.upper()
 print (NombreCompleto)
