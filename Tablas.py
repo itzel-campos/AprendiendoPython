@@ -4,7 +4,7 @@
 for i in range (1,11):
     Encabezado = "Tabla del {}"
     print(Encabezado.format(i))
-    #print sin argumentos es un salto de linea
+    #print solo es un salto de linea
     print()
     #dentro de un for se pone otro for
     for j in range(1,11):
